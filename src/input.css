@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    @font-face {
+        font-family: 'Montserrat';
+        src: url(./fonts/Montserrat.ttf) format('truetype');
+    }
+}
+@layer base {
+    @font-face {
+        font-family: 'Montserrat-Bold';
+        src: url(./fonts/Montserrat-Bold.ttf) format('truetype');
+    }
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer__btn {
+    @apply h-6 w-8  text-xs font-bold;
+}
+
+.active {
+    @apply bg-primary text-white rounded-lg;
+}
+
+.menu__item {
+    @apply text-active font-bold;
+}
+
+.menu__active {
+   @apply text-primary border-b-2 border-primary
+}
+
+.hed,.counter__item, .menu__item, .team {
+    font-family: Montserrat-Bold, sans-serif;
+}
+
+.text_content {
+    @apply p-8 flex flex-col shrink grow w-auto
+    md:p-[60px] lg:flex-row gap-7
+    fx:px-[180px] 3xl:px-[280px];
+}
+
+.carousel-container {
+    width: 100%;
+    max-width: 800px;
+    height: 200px;
+}
+
+#carousel img {
+    object-fit: cover;
+}
+
+.card {
+    @apply bg-white  rounded-xl w-full h-24 lg:h-28 ;
+}
+
+.card__none {
+    @apply hidden md:flex md:justify-center md:items-center;
+}
+
+.circle {
+    @apply h-4 w-4 bg-active rounded-full opacity-20 hover:opacity-60;
+}
+
+.primary_text {
+    @apply bg-gradient-to-r from-primary to-primary-red bg-clip-text text-transparent
+}
+
+.dark_theme {
+    @apply bg-gradient-to-bl from-blue  via-blue to-indigo
+}
+
+.content__card-img {
+    @apply h-24 w-24 bg-white flex justify-center items-center rounded-3xl mb-8;
+}
+
+.content__card a {
+    @apply text-active text-2xl hed hover:text-primary;
+}
+.content__card p {
+    @apply text-white pt-3.5;
+}
+
+.partners__card-item {
+    @apply justify-center items-center w-full h-[120px];
+}
+
+.team_name {
+    @apply text-blue hed pb-1.5;
+}
+.title {
+    @apply text-sm text-grey tracking-widest;
+}
+
+.catalog__text {
+    @apply flex justify-between items-start pt-3.5;
+}
+
+.primary_text_l {
+    @apply bg-gradient-to-l from-primary via-primary to-primary-red bg-clip-text text-transparent;
+}

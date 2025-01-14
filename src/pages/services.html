@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Services</title>
+  <link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+<header class="header bg-blue">
+  <div class="grid grid-rows-2 md:grid-rows-[25px_1fr_25px] md:gap-y-7 md:pt-12
+    lg:gap-y-0 lg:grid-rows-2 lg:grid-cols-[360px_1fr] lg:pt-12 md:px-[60px] 3xl:px-[160px]"  >
+
+    <div class="lang-contact bg-header-dark flex justify-between items-center px-4
+       md:bg-blue md:justify-start md:px-0
+       lg:justify-self-end lg:pt-0 ">
+      <div class="mr-1.5">
+        <button class="footer__btn text-white">УК</button>
+        <button class="footer__btn text-white">РУ</button>
+        <button class="footer__btn active">EN</button>
+      </div>
+      <div class="contact">
+        <ul class="flex gap-1.5 items-center text-white">
+          <li class="hidden md:block">
+            <img src="../../assets/images/checkmark.svg" alt="checkmark">
+          </li>
+          <li class="hidden md:flex text-grey">
+            Kyiv, Mechnikova str., 14/1
+          </li>
+          <li class="hidden md:block">
+            <img src="../../assets/images/checkmark.svg" alt="checkmark">
+          </li>
+          <li class="font-bold text-base">
+            0800 211 927
+          </li>
+          <li class="hidden md:block">
+            <img src="../../assets/images/checkmark.svg" alt="checkmark">
+          </li>
+          <li class="hidden md:block">
+            <img src="../../assets/images/services/facebook_dark.svg" alt="facebook">
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="logo flex justify-between px-4 md:px-0 lg:row-span-2 lg:order-first">
+      <div class="flex gap-1 pt-4">
+        <a href="../../index.html">
+          <img class="h-8 w-16 md:h-14 md:w-32 pt-1" src="../../assets/images/services/logo_dark.svg" alt="logo">
+        </a>
+        <span class="primary_text text-2xl md:text-5xl font-bold p-0 ">/</span>
+        <a class="text-xl md:text-4xl text-white p-0" href="#">services</a>
+      </div>
+      <div id="burger" class="h-10 w-10 p-1 my-auto rounded-2xl ">
+        <button id="openMenu">
+          <img class="md:hidden" src="../../assets/images/services/hamburger_dark.svg" alt="menu">
+        </button>
+      </div>
+    </div>
+
+    <div class="menu px-4 md:px-0 md:self-end">
+      <ul class="gap-4 hidden md:flex lg:justify-self-end">
+        <li class="text-white font-bold"><a href="./about.html">about us</a></li>
+        <li class="text-white font-bold menu__active"><a href="./services.html">services</a></li>
+        <li class="text-white font-bold"><a href="./team.html">team</a></li>
+        <li class="text-white font-bold"><a href="./publications.html">publications</a></li>
+        <li class="text-white font-bold"><a href="./contacts.html">contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="menu" class="h-[660px] bg-blue px-1.5 pt-40 mt-2 hidden">
+    <div class="dropdown_menu h-[350px] rounded-xl px-3 bg-white flex flex-col gap-4">
+      <div class=" rounded-xl text-end pt-3">
+        <button id="closeMenu">
+          <img src="../../assets/images/close.svg" alt="close">
+        </button>
+      </div>
+      <div class="bg-grey-footer rounded-xl text-center hover:bg-separator">
+        <a href="./about.html" class="dropdown_menu_btn hed text-2xl text-active">about us</a>
+      </div>
+      <div class="bg-grey-footer rounded-xl text-center hover:bg-separator">
+        <a href="./services.html" class="dropdown_menu_btn hed text-2xl text-primary">послуги</a>
+      </div>
+      <div class="bg-grey-footer rounded-xl text-center hover:bg-separator">
+        <a href="./team.html" class="dropdown_menu_btn hed text-2xl text-active active:text-primary">команда</a>
+      </div>
+      <div class="bg-grey-footer rounded-xl text-center hover:bg-separator">
+        <a href="./publications.html" class="dropdown_menu_btn hed text-2xl text-active active:text-primary">публікації</a>
+      </div>
+      <div class="bg-grey-footer rounded-xl text-center hover:bg-separator">
+        <a href="./contacts.html" class="dropdown_menu_btn hed text-2xl text-active active:text-primary">контакти</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="dark_theme rounded-b-xl">
+    <h1 class="hed text-3xl primary_text p-7 md:p-[60px] md:text-[38px] fx:px-40">What can we do better than others?</h1>
+    <div class="content grid grid-cols-1 gap-8 px-8 pb-[60px]
+                  md:px-[60px] md:grid-cols-2 md:grid-rows-2 md:gap-[60px]
+                  lg:grid-cols-3 lg:grid-rows-2 fx:px-40 ">
+      <div class="content__card">
+        <div class="content__card-img">
+          <img src="../../assets/images/services/Ecommerce.svg" alt="services">
+        </div>
+        <a href="#">IT and e-commerce</a>
+        <p>
+          An endless stream of contracts, tax issues, labor relations, corporate papers - legal work distracts you
+          from doing business. But there is not much work to do to hire an in-house lawyer.
+        </p>
+      </div>
+      <div class="content__card">
+        <div class="content__card-img">
+          <img src="../../assets/images/services/Support.svg" alt="services">
+        </div>
+        <a href="#" >Comprehensive daily legal support</a>
+        <p>
+          In addition, over time, the work will become the same type and uninteresting for a full-time lawyer. And we
+          know very well how difficult it is to find a good candidate with experience in the field of information
+          technology in Ukraine.
+        </p>
+      </div>
+      <div class="content__card">
+        <div class="content__card-img">
+          <img src="../../assets/images/services/Coprorate.svg" alt="services">
+        </div>
+        <a href="#">Structuring corporate relationships</a>
+        <p>
+          Instead of just providing legal services, we will hire a lawyer or a whole team that will fit into the daily
+          life of your company.
+        </p>
+      </div>
+      <div class="content__card">
+        <div class="content__card-img">
+          <img src="../../assets/images/services/Trust.svg" alt="services">
+        </div>
+        <a href="#">Building contractual relations</a>
+        <p>
+          Once a week, or week after month, you have your own lawyer by your side. Anyone in the company can catch it at
+          the coffee maker and just talk about current affairs instead of waiting for update status.
+        </p>
+      </div>
+      <div class="content__card">
+        <div class="content__card-img">
+          <img src="../../assets/images/services/Protection.svg" alt="services">
+        </div>
+        <a href="#">Protection of business, intellectual property</a>
+        <p>
+          And all the other time he will work on new diverse projects, so he will definitely not stop in professional
+          development. One way or another, all Axon Partners will work for you instead of a corporate lawyer.
+        </p>
+      </div>
+      <div class="content__card">
+        <div class="content__card-img">
+          <img src="../../assets/images/services/Court.svg" alt="services">
+        </div>
+        <a href="#">Judicial representation</a>
+        <p>
+          Is it a small, medium-sized company or a market leader? Local business or multinational company? Do you
+          have your own legal department or not?
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="px-5">
+    <div class="bg-bottom-line h-2.5 w-full rounded-b-xl"></div>
+  </div>
+  <div class="px-10">
+    <div class="bg-bottom-line2 h-2.5 w-full rounded-b-xl"></div>
+  </div>
+
+  <div class="uppercase text-blue text-sm tracking-wider hed text-center pt-[60px] pb-8">They already trust us</div>
+
+    <div class="partners__card grid grid-cols-1 md:grid-cols-3 md:grid-rows-4 lg:grid-rows-3 lg:grid-cols-4">
+      <div class="partners__card-item bg-hillel flex">
+        <img src="../../assets/images/services/hillel.svg" alt="hillel">
+      </div>
+      <div class="partners__card-item bg-wanna flex">
+        <img src="../../assets/images/services/wannabiz.svg" alt="wannabiz">
+      </div>
+      <div class="partners__card-item bg-tap flex">
+        <img src="../../assets/images/services/tapgerine.svg" alt="tapgerine">
+      </div>
+      <div class="partners__card-item bg-3d flex">
+        <img src="../../assets/images/services/3dlook.svg" alt="3dlook">
+      </div>
+      <div class="partners__card-item bg-orangear flex">
+        <img src="../../assets/images/services/orangear.svg" alt="orangear">
+      </div>
+      <div class="partners__card-item bg-adtel flex">
+        <img src="../../assets/images/services/adtelligent.svg" alt="adtelligent">
+      </div>
+      <div class="partners__card-item bg-click hidden md:flex">
+        <img src="../../assets/images/services/clickky.svg" alt="clickky">
+      </div>
+      <div class="partners__card-item bg-eco hidden md:flex">
+        <img src="../../assets/images/services/eco-leasing.svg" alt="eco-leasing">
+      </div>
+      <div class="partners__card-item bg-infra hidden md:flex">
+        <img src="../../assets/images/services/ingratek.svg" alt="ingratek">
+      </div>
+      <div class="partners__card-item bg-city hidden md:flex">
+        <img src="../../assets/images/services/city-par.svg" alt="city-par">
+      </div>
+      <div class="partners__card-item bg-art hidden md:flex">
+        <img src="../../assets/images/services/artprint.svg" alt="artprint">
+      </div>
+      <div class="partners__card-item bg-black hidden md:flex">
+        <img src="../../assets/images/services/ultimatecard.svg" alt="ultimatecard">
+      </div>
+    </div>
+
+</main>
+
+<footer class="footer bg-grey-footer ">
+  <div class="p-7 flex flex-col items-center md:px-44 md:justify-start
+          lg:flex-row lg:justify-between lg:px-14 lg:items-start fx:px-40">
+    <div>
+      <div class="footer__address pb-2.5">
+        <ul class="flex flex-col items-center gap-1.5 md:flex-row ">
+          <li class="text-blue">Kyiv, Mechnikova str., 14/1</li>
+          <li class="hidden md:flex"><img src="../../assets/images/checkmark.svg" alt="checkmark"></li>
+          <li class="uppercase hed text-active text-xs"><a href="#">On map</a></li>
+        </ul>
+      </div>
+      <div class="footer__contact">
+        <ul class="flex flex-col items-center gap-2 md:flex-row md:gap-1.5">
+          <li><a href="#"><img src="../../assets/images/facebook-Footer.svg" alt="facebook"></a></li>
+          <li class="hidden md:flex"><img src="../../assets/images/checkmark.svg" alt="checkmark"></li>
+          <li class="text-blue text-xl hed whitespace-nowrap"><a href="tel:0800 211 927">0800 211 927</a></li>
+          <li class="hidden md:flex"><img src="../../assets/images/checkmark.svg" alt="checkmark"></li>
+          <li class="text-active hed"><a href="mailto:contact@forstudy.space">contact@forstudy.space</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__copyright text-grey pt-7 lg:pt-0">
+      © 2021 HLEGAL Law company, LLC
+    </div>
+  </div>
+</footer>
+<script src="../../assets/js/main.js"></script>
+</body>
+</html>

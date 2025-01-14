@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home page</title>
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="img-logo w-full h-auto relative">
+        <img class="h-[600px] md:h-[1024px] w-full bg-blue  lg:h-[768px] fx:h-[1000px] "
+             src="assets/images/Symbol2.svg" alt="hero">
+      <div class="px-7 mx-auto text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+        <p class="text-white text-[38px] hed">you legal solutions provider</p>
+      </div>
+      <div class="absolute bottom-7 left-1/2">
+        <img src="./assets/images/Scroll.svg" alt="bottom">
+      </div>
+      </div>
+
+    <div class="absolute top-0 w-full">
+      <div class="grid md:pt-12 md:gap-y-7 lg:gap-y-0 lg:grid-rows-2 lg:grid-cols-[320px_1fr] lg:pt-12 md:px-[60px] 3xl:px-[160px]"  >
+
+        <div class="lang-contact bg-header-dark flex justify-between items-center px-4
+       md:bg-inherit md:justify-start md:px-0
+       lg:justify-self-end lg:pt-0 ">
+          <div class="mr-1.5">
+            <button class="footer__btn text-white">УК</button>
+            <button class="footer__btn text-white">РУ</button>
+            <button class="footer__btn active">EN</button>
+          </div>
+          <div class="contact">
+            <ul class="flex gap-1.5 items-center text-white">
+              <li class="hidden md:block">
+                <img src="assets/images/checkmark.svg" alt="checkmark">
+              </li>
+              <li class="hidden md:flex text-grey">
+                Kyiv, Mechnikova str., 14/1
+              </li>
+              <li class="hidden md:block">
+                <img src="assets/images/checkmark.svg" alt="checkmark">
+              </li>
+              <li class="font-bold text-base">
+                0800 211 927
+              </li>
+              <li class="hidden md:block">
+                <img src="assets/images/checkmark.svg" alt="checkmark">
+              </li>
+              <li class="hidden md:block">
+                <img src="assets/images/services/facebook_dark.svg" alt="facebook">
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="logo flex justify-between px-4 md:px-0 lg:row-span-2 lg:order-first ">
+          <div class="flex gap-1 pt-4 md:pt-0">
+            <a href="#"><img class="h-8 w-16 md:h-14 md:w-32 pt-1" src="assets/images/services/logo_dark.svg" alt="logo"></a>
+
+          </div>
+          <div id="burger" class="h-10 w-10 p-1 my-auto rounded-2xl ">
+            <button id="openMenu"><img class="md:hidden" src="assets/images/services/hamburger_dark.svg" alt="menu"></button>
+          </div>
+        </div>
+
+        <div class="menu px-4 md:px-0 md:self-end">
+          <ul class="gap-4 hidden md:flex lg:justify-self-end">
+            <li class="text-white font-bold"><a href="./src/pages/about.html">about us</a></li>
+            <li class="text-white font-bold "><a href="./src/pages/services.html">services</a></li>
+            <li class="text-white font-bold"><a href="./src/pages/team.html">team</a></li>
+            <li class="text-white font-bold"><a href="./src/pages/publications.html">publications</a></li>
+            <li class="text-white font-bold"><a href="./src/pages/contacts.html">contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="menu" class="h-[660px] bg-blue px-1.5 pt-40 mt-2 hidden">
+        <div class="dropdown_menu h-[350px] rounded-xl px-3 bg-white flex flex-col gap-4">
+          <div class=" rounded-xl text-end pt-3">
+            <button id="closeMenu">
+              <img src="assets/images/close.svg" alt="close">
+            </button>
+          </div>
+          <div class="bg-grey-footer rounded-xl text-center hover:bg-separator">
+            <a href="./src/pages/about.html" class="dropdown_menu_btn hed text-2xl text-active">about us</a>
+          </div>
+          <div class="bg-grey-footer rounded-xl text-center hover:bg-separator">
+            <a href="./src/pages/services.html" class="dropdown_menu_btn hed text-2xl text-active active:text-primary">послуги</a>
+          </div>
+          <div class="bg-grey-footer rounded-xl text-center hover:bg-separator">
+            <a href="./src/pages/team.html" class="dropdown_menu_btn hed text-2xl text-active active:text-primary">команда</a>
+          </div>
+          <div class="bg-grey-footer rounded-xl text-center hover:bg-separator">
+            <a href="./src/pages/publications.html" class="dropdown_menu_btn hed text-2xl text-active active:text-primary">публікації</a>
+          </div>
+          <div class="bg-grey-footer rounded-xl text-center hover:bg-separator">
+            <a href="./src/pages/contacts.html" class="dropdown_menu_btn hed text-2xl text-active active:text-primary">контакти</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</header>
+  <main>
+    <div class="dark_theme strategies_and_services rounded-b-xl">
+      <div class="p-7 md:p-[60px] flex flex-col gap-7 md:flex-row md:gap-[60px] ">
+        <div class="strategies pb-7 border-b-4 border-grey md:border-r-4 md:border-b-0 mb:pb-0">
+          <ul class="flex flex-row gap-7 text-nowrap overflow-hidden md:flex-col md:pr-14 md:items-end">
+            <li class="hed text-3xl md:text-4xl primary_text_l hover:text-primary"><a href="#">Consistent</a></li>
+            <li class="hed text-3xl md:text-4xl text-grey hover:text-primary"><a href="#">Customer oriented</a></li>
+            <li class="hed text-3xl md:text-4xl text-grey hover:text-primary"><a href="#">Innovative</a></li>
+            <li class="hed text-3xl md:text-4xl text-grey hover:text-primary"><a href="#">Business oriented</a></li>
+          </ul>
+        </div>
+        <div class="flex flex-col">
+          <h2 class="text-white text-xl hed pb-7">We turn the idea of legal services</h2>
+          <p class="text-white text-xl">
+            Consolidating many years of experience and practice, the company's lawyers accompany complex projects and
+            achieve a number of important decisions for the industry. Many of them form the practice of applying the law
+            of the sea in Ukraine.
+          </p>
+        </div>
+      </div>
+
+      <div class="service px-7 md:px-[60px] 3xl:px-40">
+        <a class="text-active text-sm font-bold uppercase tracking-wider" href="./src/pages/services.html">service ></a>
+
+        <h1 class="hed text-3xl primary_text  pt-2.5 md:text-[38px]">What can we do better than others?</h1>
+        <div class="content grid grid-cols-1 gap-8 py-7 md:py-[60px]
+                  md:grid-cols-2 md:grid-rows-2 md:gap-[60px]
+                  lg:grid-cols-3 lg:grid-rows-2">
+          <div class="content__card">
+            <div class="content__card-img">
+              <img src="./assets/images/services/Ecommerce.svg" alt="services">
+            </div>
+            <a href="#">IT and e-commerce</a>
+            <p>
+              An endless stream of contracts, tax issues, labor relations, corporate papers - legal work distracts you
+              from doing business. But there is not much work to do to hire an in-house lawyer.
+            </p>
+          </div>
+          <div class="content__card">
+            <div class="content__card-img">
+              <img src="./assets/images/services/Support.svg" alt="services">
+            </div>
+            <a href="#" >Comprehensive daily legal support</a>
+            <p>
+              In addition, over time, the work will become the same type and uninteresting for a full-time lawyer. And we
+              know very well how difficult it is to find a good candidate with experience in the field of information
+              technology in Ukraine.
+            </p>
+          </div>
+          <div class="content__card">
+            <div class="content__card-img">
+              <img src="./assets/images/services/Coprorate.svg" alt="services">
+            </div>
+            <a href="#">Structuring corporate relationships</a>
+            <p>
+              Instead of just providing legal services, we will hire a lawyer or a whole team that will fit into the daily
+              life of your company.
+            </p>
+          </div>
+          <div class="content__card">
+            <div class="content__card-img">
+              <img src="./assets/images/services/Trust.svg" alt="services">
+            </div>
+            <a href="#">Building contractual relations</a>
+            <p>
+              Once a week, or week after month, you have your own lawyer by your side. Anyone in the company can catch it at
+              the coffee maker and just talk about current affairs instead of waiting for update status.
+            </p>
+          </div>
+          <div class="content__card">
+            <div class="content__card-img">
+              <img src="./assets/images/services/Protection.svg" alt="services">
+            </div>
+            <a href="#">Protection of business, intellectual property</a>
+            <p>
+              And all the other time he will work on new diverse projects, so he will definitely not stop in professional
+              development. One way or another, all Axon Partners will work for you instead of a corporate lawyer.
+            </p>
+          </div>
+          <div class="content__card">
+            <div class="content__card-img">
+              <img src="./assets/images/services/Court.svg" alt="services">
+            </div>
+            <a href="#">Judicial representation</a>
+            <p>
+              Is it a small, medium-sized company or a market leader? Local business or multinational company? Do you
+              have your own legal department or not?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="px-5">
+      <div class="bg-bottom-line h-2.5 w-full rounded-b-xl "></div>
+    </div>
+    <div class="px-10">
+      <div class="bg-bottom-line2 h-2.5 w-full rounded-b-xl"></div>
+    </div>
+
+    <div class="team__container px-7 pt-7 h-full  3xl:px-40">
+      <div class="flex flex-col lg:flex-row lg:justify-between">
+        <div class="bg-[url('./images/team/Team-1.jpg')] bg-cover rounded-t-xl bg-center h-[500px] w-full lg:rounded-l-xl
+         lg:rounded-tr-none  lg:w-2/5 fx:w-1/3 fx:h-[400px] 3xl:w-1/4 3xl:h-[300px]"></div>
+        <div class="flex flex-col p-7 bg-grey-footer w-full lg:w-3/5 fx:w-2/3 3xl:w-3/4 rounded-b-xl
+             lg:rounded-bl-none lg:rounded-r-xl">
+          <a class="text-sm text-active font-bold tracking-widest pb-1.5" href="./src/pages/team.html">команда ></a>
+          <h2 class="text-3xl hed primary_text lg:text-4xl pb-7">
+            Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях,
+            коли більшість безсилі.
+          </h2>
+          <h3 class="hed text-grey font-bold pb-1.5">Олександр Олександровський</h3>
+          <p class="text-grey text-sm">Керуючий партнер</p>
+        </div>
+      </div>
+      <div class="flex flex-row lg:flex-row justify-center gap-3.5 pt-8 w-full">
+        <button class="w-4 h-4 rounded-full bg-active"></button>
+        <button class="w-4 h-4 rounded-full bg-active opacity-20"></button>
+        <button class="w-4 h-4 rounded-full bg-active opacity-20"></button>
+      </div>
+    </div>
+
+    <div class="uppercase text-blue text-sm tracking-wider hed text-center pt-[60px] pb-8">They already trust us</div>
+
+    <div class="partners__card grid grid-cols-1 md:grid-cols-3 md:grid-rows-4 lg:grid-rows-3 lg:grid-cols-4">
+      <div class="partners__card-item bg-hillel flex">
+        <img src="./assets/images/services/hillel.svg" alt="hillel">
+      </div>
+      <div class="partners__card-item bg-wanna flex">
+        <img src="./assets/images/services/wannabiz.svg" alt="wannabiz">
+      </div>
+      <div class="partners__card-item bg-tap flex">
+        <img src="./assets/images/services/tapgerine.svg" alt="tapgerine">
+      </div>
+      <div class="partners__card-item bg-3d flex">
+        <img src="./assets/images/services/3dlook.svg" alt="3dlook">
+      </div>
+      <div class="partners__card-item bg-orangear flex">
+        <img src="./assets/images/services/orangear.svg" alt="orangear">
+      </div>
+      <div class="partners__card-item bg-adtel flex">
+        <img src="./assets/images/services/adtelligent.svg" alt="adtelligent">
+      </div>
+      <div class="partners__card-item bg-click hidden md:flex">
+        <img src="./assets/images/services/clickky.svg" alt="clickky">
+      </div>
+      <div class="partners__card-item bg-eco hidden md:flex">
+        <img src="./assets/images/services/eco-leasing.svg" alt="eco-leasing">
+      </div>
+      <div class="partners__card-item bg-infra hidden md:flex">
+        <img src="./assets/images/services/ingratek.svg" alt="ingratek">
+      </div>
+      <div class="partners__card-item bg-city hidden md:flex">
+        <img src="./assets/images/services/city-par.svg" alt="city-par">
+      </div>
+      <div class="partners__card-item bg-art hidden md:flex">
+        <img src="./assets/images/services/artprint.svg" alt="artprint">
+      </div>
+      <div class="partners__card-item bg-black hidden md:flex">
+        <img src="./assets/images/services/ultimatecard.svg" alt="ultimatecard">
+      </div>
+    </div>
+
+    <div class="publication bg-grey-footer px-7 pt-7 md:px-[60px] 3xl:px-40">
+      <div>
+        <a class="text-sm text-active font-bold tracking-widest uppercase" href="./src/pages/publications.html">Publications ></a>
+        <h2 class="hed text-3xl primary_text  pt-1.5 md:text-[38px] pb-7">We have something to tell</h2>
+      </div>
+      <div class="grid grid-cols-1 grid-rows-3 gap-8 md:grid-cols-2 md:grid-rows-2 pb-8 border-b-2 border-blue-200
+                  lg:grid-cols-3 lg:grid-rows-1">
+        <div class="article h-full bg-white rounded-lg">
+          <div class="h-[200px] w-fill bg-cover rounded-t-lg bg-center bg-[url('../assets/images/publication/Publication-1.jpg')]"></div>
+          <div class="p-7 flex flex-col gap-3.5">
+            <a href="#" class="text-active hed hover:text-primary">Equity associate</a>
+            <p class="text-grey hed text-xs tracking-widest uppercase">April 22</p>
+            <div class="h-1 bg-separator w-full"></div>
+            <p class="text-blue text-sm">
+              I'm a jun on projects. I am a co-owner of a law firm. How it happened. Before entering my parents
+              told me that if I…
+            </p>
+          </div>
+        </div>
+        <div class="article h-full bg-white rounded-lg">
+          <div class="h-[200px] w-fill bg-cover rounded-t-lg bg-center bg-[url('../assets/images/publication/Publication-2.jpg')]"></div>
+          <div class="p-7 flex flex-col gap-3.5">
+            <a href="#" class="text-active hed hover:text-primary">
+              Penalty for the Good Corporation: what will happen to Google and others for violating the GDPR
+            </a>
+            <p class="text-grey hed text-xs tracking-widest uppercase">September 29</p>
+            <div class="h-1 bg-separator w-full"></div>
+            <p class="text-blue text-sm">
+              And why the recovery of 50 million euros could be a fateful precedent According to Mind.ua January 21
+              National Commission for Data Protection.
+            </p>
+          </div>
+        </div>
+        <div class="article h-full bg-white rounded-lg md:col-span-2 lg:col-span-1">
+          <div class="h-[200px] w-fill bg-cover rounded-t-lg bg-center bg-[url('../assets/images/publication/Publication-3.jpg')]"></div>
+          <div class="p-7 flex flex-col gap-3.5">
+            <a href="#" class="text-active hed hover:text-primary">
+              Millennial Testament
+            </a>
+            <p class="text-grey hed text-xs tracking-widest uppercase">August 19</p>
+            <div class="h-1 bg-separator w-full"></div>
+            <p class="text-blue text-sm">
+              What and how modern vloggers, opinion leaders and crypto-millionaires will inherit A typical legacy of
+              the Ukrainian generation X looks like this: an apartment in…
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer bg-grey-footer ">
+    <div class="p-8 flex flex-col items-center md:px-44 md:justify-start
+          lg:flex-row lg:justify-between lg:px-14 lg:items-start fx:px-40">
+      <div>
+        <div class="footer__address pb-2.5">
+          <ul class="flex flex-col items-center gap-1.5 md:flex-row ">
+            <li class="text-blue">Kyiv, Mechnikova str., 14/1</li>
+            <li class="hidden md:flex"><img src="assets/images/checkmark.svg" alt="checkmark"></li>
+            <li class="uppercase hed text-active text-xs"><a href="#">On map</a></li>
+          </ul>
+        </div>
+        <div class="footer__contact">
+          <ul class="flex flex-col items-center gap-2 md:flex-row md:gap-1.5">
+            <li><a href="#"><img src="assets/images/facebook-Footer.svg" alt="facebook"></a></li>
+            <li class="hidden md:flex"><img src="assets/images/checkmark.svg" alt="checkmark"></li>
+            <li class="text-blue text-xl hed whitespace-nowrap"><a href="tel:0800 211 927">0800 211 927</a></li>
+            <li class="hidden md:flex"><img src="assets/images/checkmark.svg" alt="checkmark"></li>
+            <li class="text-active hed"><a href="mailto:contact@forstudy.space">contact@forstudy.space</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__copyright text-grey pt-8 lg:pt-0">
+        © 2021 HLEGAL Law company, LLC
+      </div>
+    </div>
+  </footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
